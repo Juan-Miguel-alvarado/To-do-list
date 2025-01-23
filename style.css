@@ -19,7 +19,7 @@ body{
     background-color: #ced4da5f;
     backdrop-filter: blur(100000px);
     border: 2px solid #21252939;
-    width: 800px;
+    width: 500px;
 }
 h1{
     color: #212529;
@@ -42,6 +42,11 @@ textarea:focus{
     display: flex;
     gap: 1rem;
 }
+.botones div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 button{
     padding: 0.5rem 0.8rem;
     border-radius: 0.2rem;
@@ -60,23 +65,23 @@ button:active{
     background-color: #31572c;
 }
 #remove{
-    background-color: #9d0208;
+    background-color: #9e2a2b;
 }
 #addp{
     background-color: #e85d04;
 }
 #addpp{
-    background-color: #9a3b00;
+    background-color: #3a5a40;
 }
 #removep{
-    background-color: #8c2f39;
+    background-color: #9a3b00;
 }
 #removepp{
-    background-color: #52191f;
+    background-color: #9d0208;
 }
 table{
     border-radius: 0.2rem;
-    width: 800px;
+    width: 500px;
     border-collapse: separate;
     background-color: #212529;
     overflow: hidden;
@@ -104,3 +109,5 @@ tbody tr:last-child td:last-child{
 #tabla{
     display: none;
 }
+
+

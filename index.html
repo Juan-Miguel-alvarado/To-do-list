@@ -13,12 +13,18 @@
         <form onsubmit="event.preventDefault();">
             <textarea id="tarea" placeholder="Ingresa la tarea"></textarea>
             <div class="botones">
-                <button id="add" type="submit">Agregar tarea de ultimo</button>
-                <button id="addpp" type="submit">Agregar tarea de primero</button>
-                <button id="addp" type="submit">Agregar tarea en cualquier posicion</button>
-                <button id="removep" type="submit">Eliminar una tarea espesifica</button>
-                <button id="remove" type="submit">Eliminar ultima tarea</button>
-                <button id="removepp" type="submit">Eliminar primera tarea</button>
+                <div>
+                    <button id="add" type="submit">Agregar tarea de ultimo</button>
+                    <button id="addpp" type="submit">Agregar tarea de primero</button>
+                </div>
+                <div>
+                    <button id="addp" type="submit">Agregar tarea en cualquier posicion</button>
+                    <button id="removep" type="submit">Eliminar una tarea en cualquier posicion</button>
+                </div>
+                <div>
+                    <button id="removepp" type="submit">Eliminar primera tarea</button>
+                    <button id="remove" type="submit">Eliminar ultima tarea</button>
+                </div>
             </div>
         </form>
         <div id="tabla">
